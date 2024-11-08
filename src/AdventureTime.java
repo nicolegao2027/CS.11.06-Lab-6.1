@@ -13,6 +13,9 @@ public class AdventureTime {
         System.out.println(challengeTwo("inputOneTwo.txt"));
         System.out.println(challengeThree("inputThreeFour.txt"));
         System.out.println(challengeFour("inputThreeFour.txt"));
+        String one = "inputOneTwo.txt";
+        String two = "inputThreeFour.txt";
+        writeFileAllAnswers("AdventureTime", challengeOne(one), challengeTwo(one), challengeThree(two), challengeFour(two));
     }
 
     /** TODO 1
